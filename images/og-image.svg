@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="tmBgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0b"/>
+      <stop offset="100%" style="stop-color:#121214"/>
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3b82f6"/>
+      <stop offset="100%" style="stop-color:#60a5fa"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#tmBgGradient)"/>
+
+  <!-- Decorative elements -->
+  <circle cx="1050" cy="150" r="250" fill="#1e293b" opacity="0.3"/>
+  <circle cx="150" cy="500" r="180" fill="#1e40af" opacity="0.1"/>
+
+  <!-- Profile circle placeholder -->
+  <circle cx="200" cy="280" r="100" fill="#1e293b" stroke="#3b82f6" stroke-width="3"/>
+  <text x="200" y="300" font-family="Inter, Arial, sans-serif" font-size="48" font-weight="600" fill="#60a5fa" text-anchor="middle">TM</text>
+
+  <!-- Name -->
+  <text x="350" y="250" font-family="Inter, Arial, sans-serif" font-size="56" font-weight="700" fill="white">Teoman Metehan</text>
+
+  <!-- Title -->
+  <text x="350" y="320" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="500" fill="url(#accentGradient)">AI Strategist &amp; Serial Entrepreneur</text>
+
+  <!-- Description -->
+  <text x="100" y="450" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="400" fill="#94a3b8">Founder &amp; CEO of TVI Teknoloji</text>
+  <text x="100" y="490" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="400" fill="#94a3b8">Building AI-powered B2B SaaS solutions for Turkish SMEs</text>
+
+  <!-- URL -->
+  <text x="100" y="580" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="500" fill="#3b82f6">teomanmetehan.com</text>
+</svg>
